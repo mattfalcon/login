@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style type="text/css">
+.container{
+  width: 1170px;
+}
+#signup {padding: 10px} 
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+} 
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.nav-link{
+  padding: 10px;
+}
+.navbar-nav{ 
+    padding-top: 20px;
+}
+</style>
+</head>
+<nav class="navbar navbar-inverse bg-inverse">
+  <a class="navbar-brand" href="#">Home</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="/signup">Sign Up</a>
+    </div>
+  </div>
+</nav>
+<hr>
+<body>
+<div class="container">
+<h3> Sign In </h3>
+<hr>
+<p>Please Sign In</p>
+<form id="signin" name="signin" method="post" action="signin">
+  <label for="email">Email Address</label>
+  <input class="form-control" name="email" type="text" />
+  <label for="password">Password</label>
+  <input class="form-control" name="password" type="password" />
+  <input class="btn" type="submit" value="Sign In" />
+</form>
+</div>
+</body>
+</html>
